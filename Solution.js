@@ -6,7 +6,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
     const half = sorted.length / 2;
     const halfplus = half+1;
     const sum = sorted[half - 1] +sorted[halfplus - 1];
-    console.log(sum);
+    console.log(sum/2);
   }
   else {
     const half = parseInt((sorted.length-1) / 2);
